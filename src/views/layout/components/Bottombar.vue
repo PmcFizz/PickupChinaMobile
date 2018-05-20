@@ -1,15 +1,15 @@
 <!--底部bar-->
 <template>
-  <tabbar class="buttom_bar">
-    <tabbar-item>
-      <img slot="icon" src="">
+  <tabbar class="buttom_bar" ref="buttomBar">
+    <tabbar-item link="/">
+      <img slot="icon" src="/index">
       <span slot="label">捡拾活动</span>
     </tabbar-item>
-    <tabbar-item show-dot>
+    <tabbar-item link="/refuses">
       <img slot="icon" src="">
       <span slot="label">垃圾地图</span>
     </tabbar-item>
-    <tabbar-item selected link="/component/demo">
+    <tabbar-item selected link="/personal">
       <img slot="icon" src="">
       <span slot="label">个人中心</span>
     </tabbar-item>

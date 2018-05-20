@@ -2,10 +2,7 @@
   <div class="personal_container">
     <section ref="personal_panel">
       <group class="top_profile_info">
-       <x-header title="个人中心" :left-options="{showBack: false}" class="top_title"></x-header>
-       <cell-box class="user_info" is-link>
-          <panel :list="list" type="1"></panel>
-        </cell-box>
+       <x-header :left-options="{backText: ''}">个人信息</x-header>
       </group>
       <group>
         <cell title="发起活动" value="" class="cell_item" :border-intent="false" is-link>

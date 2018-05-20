@@ -29,6 +29,12 @@ export const constantRouterMap = [
         component: _import('personal/index'),
         name: '个人中心',
         meta: { title: '个人中心', icon: 'dashboard', noCache: true }
+      },
+      {
+        path: 'info',
+        component: _import('personal/info'),
+        name: '个人信息',
+        meta: { title: '个人信息', icon: 'dashboard', noCache: true }
       }
     ]
   },

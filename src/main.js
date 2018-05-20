@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 // 全局注册VuxUI的组件（听说vux3版本后支持无声明注册）
-import { Group,Cell,CellBox,XInput,XButton,Flexbox, FlexboxItem,Tabbar, TabbarItem,XHeader } from 'vux'
+import { Group,Cell,CellBox,XInput,XButton,Flexbox, FlexboxItem,Tabbar, TabbarItem,XHeader,Panel  } from 'vux'
 Vue.component('group', Group)
 Vue.component('cell', Cell)
 Vue.component('x-input', XInput)
@@ -15,6 +15,7 @@ Vue.component('tabbar', Tabbar)
 Vue.component('tabbar-item', TabbarItem)
 Vue.component('cell-box', CellBox)
 Vue.component('x-header', XHeader)
+Vue.component('panel', Panel)
 // 引入适配
 import 'lib-flexible'
 // 点击延迟
